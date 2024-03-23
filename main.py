@@ -38,7 +38,6 @@ async def handle_response(message) -> str:
         return "💀"
 
 
-
 # Sõnumi saatmine kasutajale (siin ei pea midagi muutma)
 async def send_message(message, user_message):
     try:
