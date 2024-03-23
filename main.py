@@ -53,7 +53,6 @@ intents.members = True
 
 client = discord.Client(intents=intents)
 
-
 # Tegevus, kui bot valmis laeb
 @client.event
 async def on_ready():
